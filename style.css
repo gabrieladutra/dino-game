@@ -1,0 +1,30 @@
+body{
+    background-image: url(./img/2604.jpg);
+    background-size: cover;
+}
+
+.dino{
+    width: 60px;
+    height: 60px;
+    background-image: url(./img/dino.png);
+    clip-path: ellipse(70% 70% at 50% 50%);
+    position: absolute;
+    bottom: 0;
+
+}
+
+.building{
+    position: absolute;
+    background-image: url(./img/buildingVector.png);
+    width: 60px; 
+    height: 60px; 
+    background-position:center;
+    background-size: cover;
+    bottom: 0;
+}
+
+.game-over{
+    margin-top: 50px;
+    color: rgb(136, 110, 146);
+    font-family: serif;
+}
