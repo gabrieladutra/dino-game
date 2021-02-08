@@ -28,3 +28,18 @@ body{
     color: rgb(136, 110, 146);
     font-family: serif;
 }
+@keyframes slideRight{
+    from {
+        background-position: 70000% ;
+    }
+    to {
+        background-position: 0 ;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    background-repeat: repeat-x;
+    animation: slideright 600s infinite linear;
+}
